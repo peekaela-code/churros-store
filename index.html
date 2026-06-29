@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Churros Delight</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>:chocolate_bar: Churros Delight</h1>
+    <p>Churros Renyah dengan Berbagai Rasa</p>
+</header>
+
+<div class="container">
+
+    <img src="https://images.unsplash.com/photo-1519864600265-abb23847ef2c?w=600" alt="Churros">
+
+    <h2>Menu</h2>
+
+    <p>Harga : <b>Rp8.000</b></p>
+
+    <label>Varian Rasa</label>
+
+    <select id="rasa">
+        <option value="Tiramisu">Tiramisu</option>
+        <option value="Cokelat">Cokelat</option>
+    </select>
+
+    <label>Jumlah Porsi</label>
+
+    <input type="number" id="jumlah" value="1" min="1">
+
+    <button onclick="hitung()">Hitung Total</button>
+
+    <h2 id="hasil"></h2>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
